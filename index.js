@@ -123,3 +123,5 @@ function printName(name) {
 //     weight: 55,
 //     favColor: "red",
 // };
+
+console.log("hello world");
