@@ -124,4 +124,17 @@ function printName(name) {
 //     favColor: "red",
 // };
 
-console.log("hello world");
+//callback function
+
+function parentFunction(callback) {
+    let x = 4;
+    let y = 7;
+    return callback(x, y);
+}
+
+function childFunction(p1, p2) {
+    let sum = p1 + p2;
+    console.log(sum);
+}
+
+parentFunction(childFunction);
