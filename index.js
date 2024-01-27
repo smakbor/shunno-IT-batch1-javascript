@@ -137,4 +137,228 @@ function childFunction(p1, p2) {
     console.log(sum);
 }
 
-parentFunction(childFunction);
+// parentFunction(childFunction);
+
+let shamimChatrabas = {
+    name: "Shamim Chatrabas",
+    colour: "White",
+    rooms: 5,
+    windows: 7,
+    toilets: 2,
+    isGirl: false,
+};
+// console.log(shamimChatrabas);
+
+let jalilChatrabas = {
+    name: "Jalil Chatrabas",
+    rooms: 5,
+    toilets: 2,
+    windows: 5,
+    colour: "White",
+    isGirl: false,
+};
+
+let gofurMonjil = {
+    name: "Gofur Monjil",
+    rooms: 14,
+    toilets: 6,
+    colour: "Black White",
+    windows: 14,
+    isGirl: true,
+};
+
+let motiHoll = {
+    name: "Moti Holl",
+    rooms: 30,
+    windows: 45,
+    toilets: 18,
+    colour: "Blue White",
+    isGirl: false,
+};
+
+const massInfo = [
+    {
+        name: "Shamim Chatrabas",
+        colour: "White",
+        rooms: 5,
+        windows: 7,
+        toilets: 2,
+        isGirl: false,
+    },
+    {
+        name: "Jalil Chatrabas",
+        rooms: 5,
+        toilets: 2,
+        windows: 5,
+        colour: "White",
+        isGirl: false,
+    },
+    {
+        name: "Jalil Chatrabas",
+        rooms: 5,
+        toilets: 2,
+        windows: 5,
+        colour: "White",
+        isGirl: false,
+    },
+    {
+        name: "Moti Holl",
+        rooms: 30,
+        windows: 45,
+        toilets: 18,
+        colour: "Blue White",
+        isGirl: false,
+    },
+];
+
+const jahid = {
+    name: "Jahid Hasan",
+    department: "Banking",
+    cgpa: 2.75,
+    roll: 324342342,
+    university: "RU",
+};
+
+let yeakub = {
+    name: "Yeakub Ali",
+    department: "Banking",
+    cgpa: 2.5,
+    roll: 324342342,
+    university: "RU",
+};
+
+let mizan = {
+    name: "Mizanur Rahman",
+    department: "MGT",
+    cgpa: 3.35,
+    roll: 324342342,
+    university: "RU",
+};
+
+let studentInfo = [
+    {
+        name: "Jahid Hasan",
+        department: "Banking",
+        cgpa: 2.75,
+        roll: 324342342,
+        university: "RU",
+    },
+    {
+        name: "Yeakub Ali",
+        department: "Banking",
+        cgpa: 2.5,
+        roll: 324342342,
+        university: "RU",
+    },
+    {
+        name: "Mizanur Rahman",
+        department: "MGT",
+        cgpa: 3.35,
+        roll: 324342342,
+        university: "RU",
+    },
+];
+// console.log(studentInfo[2]);
+// console.log(studentInfo[1]);
+// console.log(studentInfo[0]);
+
+// console.log(studentInfo.length);
+// console.log(massInfo.length);
+
+// index < length;
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+// }
+
+//array 2 ta concept
+//1-> index
+//2-> element
+
+// array er moddhe 2 vabe access kora jay
+// 1--> dynamic access
+// 2--> loop like for loop, while loop
+// studentInfo[2]={
+//     name: 'Mizanur Rahman',
+//     department: 'MGT',
+//     cgpa: 3.35,
+//     roll: 324342342,
+//     university: 'RU'
+//   }
+
+// const number = [3, 6, 8, 7, 5, 2, 9];
+// console.log(number[3]);
+// number[3] = 7;
+
+let merinoTShirt = {
+    description: "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+    review: 0,
+    img: "merino.jpg",
+    variations: 7,
+    size: 6,
+    material: "merino wool",
+    price: 23.7,
+};
+
+let tShirtInfo = [
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 6,
+        material: "merino wool",
+        price: 23.7,
+    },
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 6,
+        material: "merino wool",
+        price: 23.7,
+    },
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 6,
+        material: "merino wool",
+        price: 23.7,
+    },
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 6,
+        material: "merino wool",
+        price: 23.7,
+    },
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 6,
+        material: "merino wool",
+        price: 23.7,
+    },
+];
+
+// console.log(tShirtInfo[0]);
+// console.log(tShirtInfo[1]);
+// console.log(tShirtInfo[2]);
+// console.log(tShirtInfo[3]);
+
+for (let index = 0; index < tShirtInfo.length; index++) {
+    //code execution block
+    console.log(tShirtInfo[index]);
+}
