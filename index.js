@@ -381,7 +381,35 @@ let merinoTShirt = {
     price: 23.7,
 };
 
-for (key in merinoTShirt) {
-    console.log(typeof key);
-    console.log(merinoTShirt[key]);
-}
+// for (key in merinoTShirt) {
+//     console.log(typeof key);
+//     console.log(merinoTShirt[key]);
+// }
+
+// const number = [3, 6, 75, 8, 9, 23, 45];
+
+// let result = number.slice(0, 4);
+// console.log(result);
+// console.log(number);
+
+const number = [3, 6, 75, 8, 9, 23, 45];
+
+const myFunc = (arr, callback) => {
+    for (let i = 0; i < arr.length; i++) {
+        callback(arr[i]);
+    }
+};
+
+myFunc(number, (el) => {
+    console.log(el * 2);
+});
+
+console.log("???");
+
+myFunc(number, (el) => {
+    console.log(el + 5);
+});
+console.log("???");
+myFunc(number, (el) => {
+    console.log(el - 2);
+});
