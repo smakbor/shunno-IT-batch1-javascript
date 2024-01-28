@@ -290,16 +290,6 @@ let studentInfo = [
 // console.log(number[3]);
 // number[3] = 7;
 
-let merinoTShirt = {
-    description: "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-    review: 0,
-    img: "merino.jpg",
-    variations: 7,
-    size: 6,
-    material: "merino wool",
-    price: 23.7,
-};
-
 let tShirtInfo = [
     {
         description:
@@ -372,3 +362,26 @@ let tShirtInfo = [
 // if (a == "medium") {
 //     console.log("hello world");
 // }
+
+// function findDescription(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         return arr[i].description;
+//     }
+// }
+// let result = findDescription(tShirtInfo);
+// console.log(result);
+
+let merinoTShirt = {
+    description: "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+    review: 0,
+    img: "merino.jpg",
+    variations: 7,
+    size: 6,
+    material: "merino wool",
+    price: 23.7,
+};
+
+for (key in merinoTShirt) {
+    console.log(typeof key);
+    console.log(merinoTShirt[key]);
+}
