@@ -392,24 +392,38 @@ let merinoTShirt = {
 // console.log(result);
 // console.log(number);
 
-const number = [3, 6, 75, 8, 9, 23, 45];
+// const number = [3, 6, 75, 8, 9, 23, 45];
 
-const myFunc = (arr, callback) => {
-    for (let i = 0; i < arr.length; i++) {
-        callback(arr[i]);
-    }
-};
+// const myFunc = (arr, callback) => {
+//     for (let i = 0; i < arr.length; i++) {
+//         callback(arr[i]);
+//     }
+// };
 
-myFunc(number, (el) => {
-    console.log(el * 2);
-});
+// myFunc(number, (el) => {
+//     console.log(el * 2);
+// });
 
-console.log("???");
+// console.log("???");
 
-myFunc(number, (el) => {
-    console.log(el + 5);
-});
-console.log("???");
-myFunc(number, (el) => {
-    console.log(el - 2);
-});
+// myFunc(number, (el) => {
+//     console.log(el + 5);
+// });
+// console.log("???");
+// myFunc(number, (el) => {
+//     console.log(el - 2);
+// });
+
+// let a = 5;
+// let b = 5;
+// console.log(a == b);
+// let d = {}; //reference 001
+// let x = d; ///reference 001
+// console.log(x == d);
+// x = {}; //009
+
+// let e = {}; //reference 002
+// console.log(d == e);
+// let f = [5]; //reference 005
+// let g = [5]; //reference 007
+// console.log(f == g);
