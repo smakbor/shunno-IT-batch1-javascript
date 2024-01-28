@@ -358,7 +358,17 @@ let tShirtInfo = [
 // console.log(tShirtInfo[2]);
 // console.log(tShirtInfo[3]);
 
-for (let index = 0; index < tShirtInfo.length; index++) {
-    //code execution block
-    console.log(tShirtInfo[index]);
-}
+// for (let index = 0; index < tShirtInfo.length; index++) {
+//     //code execution block
+//     console.log(tShirtInfo[index]);
+// }
+
+// let a = {
+//     name: "Fatfish",
+//     toString() {
+//         return "medium";
+//     },
+// };
+// if (a == "medium") {
+//     console.log("hello world");
+// }
