@@ -290,58 +290,58 @@ let studentInfo = [
 // console.log(number[3]);
 // number[3] = 7;
 
-let tShirtInfo = [
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 6,
-        material: "merino wool",
-        price: 23.7,
-    },
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 6,
-        material: "merino wool",
-        price: 23.7,
-    },
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 6,
-        material: "merino wool",
-        price: 23.7,
-    },
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 6,
-        material: "merino wool",
-        price: 23.7,
-    },
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 6,
-        material: "merino wool",
-        price: 23.7,
-    },
-];
+// let tShirtInfo = [
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 6,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 6,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 6,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 6,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 6,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+// ];
 
 // console.log(tShirtInfo[0]);
 // console.log(tShirtInfo[1]);
@@ -371,15 +371,15 @@ let tShirtInfo = [
 // let result = findDescription(tShirtInfo);
 // console.log(result);
 
-let merinoTShirt = {
-    description: "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-    review: 0,
-    img: "merino.jpg",
-    variations: 7,
-    size: 6,
-    material: "merino wool",
-    price: 23.7,
-};
+// let merinoTShirt = {
+//     description: "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//     review: 0,
+//     img: "merino.jpg",
+//     variations: 7,
+//     size: 6,
+//     material: "merino wool",
+//     price: 23.7,
+// };
 
 // for (key in merinoTShirt) {
 //     console.log(typeof key);
@@ -427,3 +427,132 @@ let merinoTShirt = {
 // let f = [5]; //reference 005
 // let g = [5]; //reference 007
 // console.log(f == g);
+
+// const number = [3, 6, 75, 8, 9, 23, 45];
+
+// const result = number.splice(2, 7, 67, 63, 12, 23);
+
+// console.log(number);
+
+// let merinoTShirt = {
+//     description: "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//     review: 0,
+//     img: "merino.jpg",
+//     variations: 7,
+//     size: 6,
+//     material: "merino wool",
+//     price: 23.7,
+// };
+// key = "description";
+
+// for (let key in merinoTShirt) {
+//     console.log(merinoTShirt[key]);
+// }
+
+const number = [3, 6, 75, 8, 9, 23, 45];
+
+// let result = number.map((item) => {
+//     return item * 2;
+// });
+// console.log(result);
+let tShirtInfo = [
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 5,
+        material: "merino wool",
+        price: 23.7,
+    },
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 6,
+        material: "merino wool",
+        price: 23.7,
+    },
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 3,
+        material: "merino wool",
+        price: 23.7,
+    },
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 7,
+        material: "merino wool",
+        price: 23.7,
+    },
+    {
+        description:
+            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+        review: 0,
+        img: "merino.jpg",
+        variations: 7,
+        size: 8,
+        material: "merino wool",
+        price: 23.7,
+    },
+];
+
+const mapFunction = (arr, callback) => {
+    let result = [];
+    for (let i = 0; i < arr.length; i++) {
+        result.push(callback(arr[i]));
+    }
+    return result;
+};
+
+const myResult = mapFunction(number, (item) => {
+    return item * 2;
+});
+
+const multiplyByFive = mapFunction(number, (item) => {
+    return item * 5;
+});
+
+// console.log(multiplyByFive);
+
+// const result = mapFunction(tShirtInfo, (item) => {
+//     if (item.size > 6) {
+//         item.size = 10;
+//     }
+//     return item;
+// });
+
+let result = tShirtInfo.map((item) => {
+    if (item.size > 6) {
+        item.size = 0;
+    }
+    return item;
+});
+
+console.log(result);
+
+// let obj = {
+//     name: "rahim",
+//     age: 23,
+//     nationality: "Bangladesh",
+// };
+
+// obj.name = "Karim";
+// obj["cgpa"] = 3.4;
+// console.log(obj);
+
+// const abc = [2, 5, 6, 8];
+// abc[2] = 10;
+// abc[4] = 13;
+// console.log(abc);
