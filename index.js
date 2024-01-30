@@ -540,7 +540,7 @@ let result = tShirtInfo.map((item) => {
     return item;
 });
 
-console.log(result);
+// console.log(result);
 
 // let obj = {
 //     name: "rahim",
@@ -556,3 +556,153 @@ console.log(result);
 // abc[2] = 10;
 // abc[4] = 13;
 // console.log(abc);
+
+// interview quiestion 1
+let x = [4, 5, 7, 8, 3, 2][(0, 5, 3)];
+// console.log(x);
+
+// interview quiestion 1
+let bool1 = false;
+let bool2 = new Boolean(false);
+
+// if (bool1) {
+//     console.log("First boolean executed");
+// }
+// if (bool2) {
+//     console.log("Second boolean executed");
+// }
+
+//// interview quiestion 3
+function CharCheck(char) {
+    return char.toUpperCase() === char;
+}
+
+// console.log(CharCheck("A"));
+// console.log(CharCheck("a"));
+// console.log(CharCheck("b"));
+// console.log(CharCheck("D"));
+
+// interview quiestion 4
+const magicObj = {
+    val: 1,
+    get a() {
+        return this.val++;
+    },
+};
+// console.log(magicObj.a);
+// console.log(magicObj.a);
+// console.log(magicObj.a);
+// console.log(magicObj);
+
+// // interview quiestion 5
+// setTimeout(() => {
+//     console.log("C");
+// }, 0);
+// (function () {
+//     Promise.resolve().then(() => {
+//         console.log("A");
+//         Promise.resolve().then(() => {
+//             console.log("B");
+//         });
+//     });
+// })();
+//////
+// for (var i = 0; i < 5; i++) {
+//     setTimeout(() => {
+//         console.log(i);
+//     }, 1000);
+// }
+// // answer ===5,5,5,5,5
+
+// let items = [5, 3, 7, 6, 2, 9];
+// function swap(items, leftIndex, rightIndex) {
+//     let temp = items[leftIndex];
+//     items[leftIndex] = items[rightIndex];
+//     items[rightIndex] = temp;
+// }
+// function partition(items, left, right) {
+//     let pivot = items[Math.floor((right + left) / 2)]; //middle element
+//     let i = left; //left pointer
+//     let j = right; //right pointer
+//     while (i <= j) {
+//         while (items[i] < pivot) {
+//             i++;
+//         }
+//         while (items[j] > pivot) {
+//             j--;
+//         }
+//         if (i <= j) {
+//             swap(items, i, j); //sawpping two elements
+//             i++;
+//             j--;
+//         }
+//     }
+//     return i;
+// }
+
+// function quickSort(items, left, right) {
+//     let index;
+//     if (items.length > 1) {
+//         index = partition(items, left, right); //index returned from partition
+//         if (left < index - 1) {
+//             //more elements on the left side of the pivot
+//             quickSort(items, left, index - 1);
+//         }
+//         if (index < right) {
+//             //more elements on the right side of the pivot
+//             quickSort(items, index, right);
+//         }
+//     }
+//     return items;
+// }
+// first call to quick sort
+// let sortedArray = quickSort(items, 0, items.length - 1);
+// console.log(sortedArray); //prints [2,3,5,6,7,9]
+
+// /////////////////////////////////////////////
+// function swap(arr, left, right) {
+//     let temp = arr[left];
+//     arr[left] = arr[right];
+//     arr[right] = temp;
+// }
+
+// function partition(arr, left, right) {
+//     // console.log(arr);
+//     let pivot = arr[Math.floor((left + right) / 2)];
+//     console.log(pivot);
+//     let i = left;
+//     let j = right;
+//     while (i <= j) {
+//         while (arr[i] < pivot) {
+//             i++;
+//         }
+//         while (arr[j] > pivot) {
+//             j--;
+//         }
+//         if (i <= j) {
+//             swap(arr, i, j);
+//             i++;
+//             j--;
+//         }
+//     }
+//     return i;
+// }
+
+// function quickSort(arr, left, right) {
+//     let index;
+//     if (arr.length > 1) {
+//         index = partition(arr, left, right);
+
+//         if (left < index - 1) {
+//             quickSort(arr, left, index - 1);
+//         }
+//         if (right > index) {
+//             quickSort(arr, index, right);
+//         }
+//     }
+//     return arr;
+// }
+
+// const quickArr = [5, 8, 2, 9, 4, 6, 1, 7, 10, 3, 30, 15];
+// const sortedArr = quickSort(quickArr, 0, quickArr.length - 1);
+// console.log(sortedArr);
