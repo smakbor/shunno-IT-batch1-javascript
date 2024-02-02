@@ -706,3 +706,55 @@ const magicObj = {
 // const quickArr = [5, 8, 2, 9, 4, 6, 1, 7, 10, 3, 30, 15];
 // const sortedArr = quickSort(quickArr, 0, quickArr.length - 1);
 // console.log(sortedArr);
+
+// const foo = async () => {
+//     console.log("hello world");
+// };
+// const final = await foo();
+// console.log(final);
+
+const num = [2, 5, 8, 3, 4, 9, 10];
+
+// console.log((num[2] = 11));
+
+// for (let i = 0; i < num.length; i++) {
+//     console.log(num[i]);
+// }
+// let age = 24;
+
+// function printElement(arr) {
+//     console.log(age);
+//     let name = "Rahim";
+//     console.log(name);
+//     console.log("Hello world");
+//     for (let i = 0; i < arr.length; i++) {
+//         // console.log(arr[i]);
+//     }
+// }
+// printElement(num);
+// console.log(age);
+// console.log(name);
+
+// start index (included)
+//end index (excluded)
+
+// let res = num.slice(0, 4);
+// console.log(res);
+// console.log(num);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// const spliced = fruits.splice(2, 1, "Lemon", "Kiwi");
+// console.log(spliced);
+// console.log(fruits);
+
+function sum() {
+    console.log("This is sum function");
+}
+
+function Calculator() {
+    console.log("This is Calc function");
+    sum();
+}
+
+console.log(Calculator());
