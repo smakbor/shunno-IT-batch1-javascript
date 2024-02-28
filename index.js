@@ -235,29 +235,29 @@ let mizan = {
     university: "RU",
 };
 
-let studentInfo = [
-    {
-        name: "Jahid Hasan",
-        department: "Banking",
-        cgpa: 2.75,
-        roll: 324342342,
-        university: "RU",
-    },
-    {
-        name: "Yeakub Ali",
-        department: "Banking",
-        cgpa: 2.5,
-        roll: 324342342,
-        university: "RU",
-    },
-    {
-        name: "Mizanur Rahman",
-        department: "MGT",
-        cgpa: 3.35,
-        roll: 324342342,
-        university: "RU",
-    },
-];
+// let studentInfo = [
+//     {
+//         name: "Jahid Hasan",
+//         department: "Banking",
+//         cgpa: 2.75,
+//         roll: 324342342,
+//         university: "RU",
+//     },
+//     {
+//         name: "Yeakub Ali",
+//         department: "Banking",
+//         cgpa: 2.5,
+//         roll: 324342342,
+//         university: "RU",
+//     },
+//     {
+//         name: "Mizanur Rahman",
+//         department: "MGT",
+//         cgpa: 3.35,
+//         roll: 324342342,
+//         university: "RU",
+//     },
+// ];
 // console.log(studentInfo[2]);
 // console.log(studentInfo[1]);
 // console.log(studentInfo[0]);
@@ -455,74 +455,74 @@ const number = [3, 6, 75, 8, 9, 23, 45];
 //     return item * 2;
 // });
 // console.log(result);
-let tShirtInfo = [
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 5,
-        material: "merino wool",
-        price: 23.7,
-    },
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 6,
-        material: "merino wool",
-        price: 23.7,
-    },
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 3,
-        material: "merino wool",
-        price: 23.7,
-    },
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 7,
-        material: "merino wool",
-        price: 23.7,
-    },
-    {
-        description:
-            "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
-        review: 0,
-        img: "merino.jpg",
-        variations: 7,
-        size: 8,
-        material: "merino wool",
-        price: 23.7,
-    },
-];
+// let tShirtInfo = [
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 5,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 6,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 3,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 7,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+//     {
+//         description:
+//             "Premium Grey Preparer organic Merino Wool Short Sleeve Men ",
+//         review: 0,
+//         img: "merino.jpg",
+//         variations: 7,
+//         size: 8,
+//         material: "merino wool",
+//         price: 23.7,
+//     },
+// ];
 
-const mapFunction = (arr, callback) => {
-    let result = [];
-    for (let i = 0; i < arr.length; i++) {
-        result.push(callback(arr[i]));
-    }
-    return result;
-};
+// const mapFunction = (arr, callback) => {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         result.push(callback(arr[i]));
+//     }
+//     return result;
+// };
 
-const myResult = mapFunction(number, (item) => {
-    return item * 2;
-});
+// const myResult = mapFunction(number, (item) => {
+//     return item * 2;
+// });
 
-const multiplyByFive = mapFunction(number, (item) => {
-    return item * 5;
-});
+// const multiplyByFive = mapFunction(number, (item) => {
+//     return item * 5;
+// });
 
 // console.log(multiplyByFive);
 
@@ -533,12 +533,12 @@ const multiplyByFive = mapFunction(number, (item) => {
 //     return item;
 // });
 
-let result = tShirtInfo.map((item) => {
-    if (item.size > 6) {
-        item.size = 0;
-    }
-    return item;
-});
+// let result = tShirtInfo.map((item) => {
+//     if (item.size > 6) {
+//         item.size = 0;
+//     }
+//     return item;
+// });
 
 // console.log(result);
 
@@ -558,12 +558,12 @@ let result = tShirtInfo.map((item) => {
 // console.log(abc);
 
 // interview quiestion 1
-let x = [4, 5, 7, 8, 3, 2][(0, 5, 3)];
+// let x = [4, 5, 7, 8, 3, 2][(0, 5, 3)];
 // console.log(x);
 
 // interview quiestion 1
-let bool1 = false;
-let bool2 = new Boolean(false);
+// let bool1 = false;
+// let bool2 = new Boolean(false);
 
 // if (bool1) {
 //     console.log("First boolean executed");
@@ -573,9 +573,9 @@ let bool2 = new Boolean(false);
 // }
 
 //// interview quiestion 3
-function CharCheck(char) {
-    return char.toUpperCase() === char;
-}
+// function CharCheck(char) {
+//     return char.toUpperCase() === char;
+// }
 
 // console.log(CharCheck("A"));
 // console.log(CharCheck("a"));
@@ -583,12 +583,12 @@ function CharCheck(char) {
 // console.log(CharCheck("D"));
 
 // interview quiestion 4
-const magicObj = {
-    val: 1,
-    get a() {
-        return this.val++;
-    },
-};
+// const magicObj = {
+//     val: 1,
+//     get a() {
+//         return this.val++;
+//     },
+// };
 // console.log(magicObj.a);
 // console.log(magicObj.a);
 // console.log(magicObj.a);
@@ -748,13 +748,37 @@ const num = [2, 5, 8, 3, 4, 9, 10];
 // console.log(spliced);
 // console.log(fruits);
 
-function sum() {
-    console.log("This is sum function");
-}
+// function sum() {
+//     console.log("This is sum function");
+// }
 
-function Calculator() {
-    console.log("This is Calc function");
-    sum();
-}
+// function Calculator() {
+//     console.log("This is Calc function");
+//     sum();
+// }
 
-console.log(Calculator());
+// console.log(Calculator());
+
+// const arr = new Array(4)
+//     .fill({ deviceCode: "0122", mac: "543298572", sn: "100" })
+//     .map((item) => {
+//         console.log(item);
+//     });
+// // console.log(arr);
+
+// function removeEmptyValue(obj) {
+//     const newObj = {};
+
+//     for (const key in obj) {
+//         if (obj.hasOwnProperty(key) && obj[key] !== "") {
+//             newObj[key] = obj[key];
+//         }
+//     }
+
+//     return newObj;
+// }
+
+// const info = { name: "Akbor", age: 23, capa: "" };
+// const result = removeEmptyValue(info);
+
+// console.log(result);
