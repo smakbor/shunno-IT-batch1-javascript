@@ -67,3 +67,44 @@ const studentInformation = {
 // };
 
 // fn1(fn2);
+
+// const findIndices = (arr, target) => {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = i + 1; j < arr.length; j++) {
+//             if (arr[i] + arr[j] === target) {
+//                 result.push(i, j);
+//             }
+//         }
+//     }
+//     return result;
+// };
+
+// console.log(findIndices([2, 5, 6, 7, 10], 7));
+
+// const findMedian = (arr1, arr2) => {
+//     const m = arr1.length;
+//     const n = arr2.length;
+//     const resultArr = arr1.concat(arr2);
+//     let sum = 0;
+//     for (let i = 0; i < resultArr.length; i++) {
+//         sum += resultArr[i];
+//     }
+//     const median = sum / (m + n);
+//     return median;
+// };
+// console.log(findMedian([1, 3], [2, 7]));
+
+// const str = "Dear SM Akbor. Your Bill amount is {{bill.amount}}";
+// const find = str.includes("{{bill.amount}}");
+// console.log(find);
+
+const firstFunction = () => {
+    return "this is first function";
+};
+const secondFunction = () => {
+    return "this is second function";
+};
+
+const message = firstFunction() || secondFunction();
+console.log(message);
