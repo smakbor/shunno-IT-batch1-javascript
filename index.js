@@ -884,12 +884,22 @@ const studentInformation = {
 // const find = str.includes("{{bill.amount}}");
 // console.log(find);
 
-const firstFunction = () => {
-    return "this is first function";
-};
-const secondFunction = () => {
-    return "this is second function";
-};
+// const firstFunction = () => {
+//     return "this is first function";
+// };
+// const secondFunction = () => {
+//     return "this is second function";
+// };
 
-const message = firstFunction() || secondFunction();
-console.log(message);
+// const message = firstFunction() || secondFunction();
+// console.log(message);
+
+let a = 10;
+let b = 10;
+let c = 10;
+
+if ((a == b) == c) {
+    console.log("hello world");
+} else {
+    console.log("Bye bye");
+}
