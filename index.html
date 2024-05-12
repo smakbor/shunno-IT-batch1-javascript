@@ -6,6 +6,32 @@
         <title>Document</title>
     </head>
     <body>
-        <div class="container"></div>
+        <!-- <div class="container"></div> -->
+
+        <h1>Show Notification Using Javascript</h1>
+        <script>
+            if (!window.Notification) {
+                console.log("Notification not supported");
+            } else {
+                console.log("Notification supported");
+                if (Notification.permission == "granted") {
+                    console.log("Notification permission is granted");
+                    showNotification();
+                } else {
+                    console.log("Notification is not grandted");
+                    Notification.requestPermission().then((permission) => {
+                        if (permission == "granted") {
+                            console.log("Permission Granted");
+                        } else {
+                            console.log("Permission not granted");
+                        }
+                    });
+                }
+            }
+
+            function showNotification() {
+                const notify = new Notification("Hello World");
+            }
+        </script>
     </body>
 </html>

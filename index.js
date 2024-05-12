@@ -894,12 +894,12 @@ const studentInformation = {
 // const message = firstFunction() || secondFunction();
 // console.log(message);
 
-let a = 10;
-let b = 10;
-let c = 10;
+// let a = 10;
+// let b = 10;
+// let c = 10;
 
-if ((a == b) == c) {
-    console.log("hello world");
-} else {
-    console.log("Bye bye");
-}
+// if ((a == b) == c) {
+//     console.log("hello world");
+// } else {
+//     console.log("Bye bye");
+// }
